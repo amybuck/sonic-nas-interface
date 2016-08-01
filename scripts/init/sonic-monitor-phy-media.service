@@ -1,0 +1,15 @@
+[Unit]
+Description=Physical media event handler
+After=sonic-object-library.service
+Wants=sonic-object-library.service
+DefaultDependencies=no
+
+[Service]
+EnvironmentFile=/etc/sonic/sonic-environment
+ExecStart=/usr/bin/base_nas_monitor_phy_media.sh
+
+# Resource Limitations
+LimitNOFILE=16384
+
+[Install]
+WantedBy=multi-user.target
