@@ -2,7 +2,7 @@ Source: libsonic-nas-interface
 Section: net
 Priority: optional
 Maintainer: Dell <support@dell.com>
-Build-Depends: debhelper (>= 9), autotools-dev,libsonic-common-dev,libsonic-nas-common-dev,libsonic-object-library-dev,libsonic-logging-dev,libsonic-nas-linux-dev,libsonic-nas-ndi-dev,sonic-ndi-api-dev
+Build-Depends: debhelper (>= 9),dh-autoreconf,dh-systemd,autotools-dev,libsonic-common-dev,libsonic-nas-common-dev,libsonic-object-library-dev,libsonic-logging-dev,libsonic-nas-linux-dev,libsonic-nas-ndi-dev,sonic-ndi-api-dev
 Standards-Version: 3.9.3
 
 Package: libsonic-nas-interface1
