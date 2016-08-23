@@ -14,7 +14,7 @@ Description: This package contains nas-interface for the SONiC software.
 
 Package: libsonic-nas-interface-dev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},libsonic-common-dev,libsonic-nas-common-dev,libsonic-object-library-dev,libsonic-logging-dev,libsonic-nas-linux-dev,libsonic-nas-ndi-dev,sonic-ndi-api-dev,libsonic-nas-interface1,libsonic-model-dev
+Depends: ${shlibs:Depends}, ${misc:Depends},libsonic-common-dev,libsonic-nas-common-dev,libsonic-object-library-dev,libsonic-logging-dev,libsonic-nas-linux-dev,libsonic-nas-ndi-dev,sonic-ndi-api-dev,libsonic-nas-interface1 (=${binary:Version}),libsonic-model-dev
 Description: This package contains nas-interface for the SONiC software.
 
 Package: sonic-nas-interface
