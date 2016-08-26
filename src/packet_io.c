@@ -17,8 +17,6 @@
 /*!
  * \file   packet_io.c
  * \brief  Core functionality for the Packet Tx/Rx
- * \date   03-2014
- * \author Prince Sunny
  */
 #define _GNU_SOURCE
 
