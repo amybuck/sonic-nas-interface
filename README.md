@@ -6,7 +6,7 @@ Interface functionality for the SONiC project
 Description
 -----------
 
-This repo contains the Interface portion of the Network abstraction service. This creates interfaces in Linux kernel corresponding to NPU front-panel ports, manages VLAN and LAG configurations, statistics managament and control packet handling 
+This repo contains the Interface portion of the Network abstraction service. This creates interfaces in Linux kernel corresponding to NPU front-panel ports, manages VLAN and LAG configurations, statistics management and control packet handling 
 
 Building
 ---------
